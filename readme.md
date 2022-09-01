@@ -1,6 +1,7 @@
 # Number of addresses between two ip's resolver
 
 This lua script can calculate ip count between two given ip's addresses. I.e.
+
 `“10.0.0.0” “10.0.0.50” => 50`
 `“10.0.0.0” “10.0.1.0” => 256`
 `“20.0.0.10” “20.0.1.0” => 246`
