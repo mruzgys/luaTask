@@ -14,10 +14,15 @@ To run this program you need to install `lua` binary. Program tested with lua 5.
 `lua main.lua ipv4 20.0.0.10 20.0.1.0`
 
 **explanation:**
+
 `lua` -> lua binnary
+
 `main.lua` -> main script/entry point for execution
+
 `ipv4` -> operation type. Possible values: `ipv4` `ipv6`
+
 `20.0.0.10` -> first ip
+
 `20.0.1.0` -> second ip
 
 ## Insights
