@@ -3,12 +3,16 @@
 This lua script can calculate ip count between two given ip's addresses. I.e.
 
 `“10.0.0.0” “10.0.0.50” => 50`
+
 `“10.0.0.0” “10.0.1.0” => 256`
+
 `“20.0.0.10” “20.0.1.0” => 246`
+
 ## Usage
 To run this program you need to install `lua` binary. Program tested with lua 5.3 version.
 
 `lua main.lua ipv4 20.0.0.10 20.0.1.0`
+
 **explanation:**
 `lua` -> lua binnary
 `main.lua` -> main script/entry point for execution
